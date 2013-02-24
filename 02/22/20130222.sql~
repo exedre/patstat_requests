@@ -1,9 +1,0 @@
-
--- Load input data
-
-DROP TABLE IF EXISTS PUBLN_NR;
-CREATE TABLE PUBLN_NR (
-       publn_auth CHAR(2),
-       publn_nr   CHAR(7),
-       KEY _n(publn_auth),
-       KEY _n(publn_nr)
